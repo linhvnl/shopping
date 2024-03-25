@@ -94,7 +94,7 @@ const sliceProduct = createSlice({
       state.docStart = docStart;
       state.docEnd = docEnd;
 
-      state.categoryShow = state.category.slice(docStart - 1, docEnd);
+      state.categoryShow = state.category?.slice(docStart - 1, docEnd);
     },
   },
 });
