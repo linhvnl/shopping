@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, "Ubuntu", "BlinkMacSystemFont", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: italic;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ___________________________ */
+/*  style for animation when hovering on image in categories */
+.image-hover:hover {
+  opacity: 0.6;
+}
+
+/* style for scroll bar */
+/* CSS cho Chrome, Safari, Edge */
+.chat-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* NOTE */
+/*
+ .movie-item:hover {
+  animation-name: item-scale;
+  animation-duration: 1.5s;
+}
+
+@keyframes item-scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+} 
+*/

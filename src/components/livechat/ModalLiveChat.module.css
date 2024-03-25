@@ -1,0 +1,31 @@
+/* STYLE MODAL cho Live Chat ---------- */
+.modalChat {
+  position: fixed;
+  top: 20vh;
+  right: 10%;
+  width: 80%;
+  background-color: white;
+  padding: 0;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+@media (min-width: 576px) {
+  .modalChat {
+    width: 30rem;
+    /* right: 10%; */
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

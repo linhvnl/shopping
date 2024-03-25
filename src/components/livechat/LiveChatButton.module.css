@@ -1,0 +1,13 @@
+/* STYLE BUTTON để toggle Live Chat ---------- */
+.btnChat {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 32px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 11;
+}
