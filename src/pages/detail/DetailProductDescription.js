@@ -34,7 +34,7 @@ const DetailProductDescription = (props) => {
       </p>
       <h5 className="text-dark mb-3">PRODUCT DESCRIPTION</h5>
       {longDesc && longDesc[0]}
-      <ul className="list-unstyled">{longDesc && longDesc.slice(1)}</ul>
+      <ul className="list-unstyled">{longDesc && longDesc?.slice(1)}</ul>
     </div>
   );
 };
