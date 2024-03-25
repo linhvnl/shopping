@@ -13,7 +13,7 @@ import ProductItem from "../../components/common/ProductItem";
 const ProductList = () => {
   // lấy dữ liệu products từ STORE
   const products = useSelector((state) => state.product.products);
-  const productsToShow8 = products.slice(0, 8);
+  const productsToShow8 = products?.slice(0, 8);
 
   // sử dụng dispatch và Actions để cập nhật STORE hiển thị popup
   const dispatch = useDispatch();
